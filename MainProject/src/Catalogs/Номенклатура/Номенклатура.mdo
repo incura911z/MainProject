@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a540bab7-8a50-4153-bde8-7ffbe2c67870">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a540bab7-8a50-4153-bde8-7ffbe2c67870">
   <producedTypes>
     <objectType typeId="27291272-f372-4a33-95dd-9cdf3b4a7cd7" valueTypeId="b33c7301-b15b-489d-8c24-d55557cfe9fd"/>
     <refType typeId="42ff7bcd-3c95-4d13-9b82-9cc85a60353a" valueTypeId="546aa1fb-3749-4439-9444-899bad3fe076"/>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="602c34af-1245-4fb3-bf46-16b10ec38484">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
