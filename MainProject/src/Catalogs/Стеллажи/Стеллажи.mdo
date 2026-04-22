@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="160b7c83-2370-4698-b3a6-b1ad997ec8c3">
+  <producedTypes>
+    <objectType typeId="c7bfb5ca-6c91-4cab-b90e-838a76410ecd" valueTypeId="f771b13c-4b15-4a30-b652-3297406ce7d4"/>
+    <refType typeId="f0a27a6f-730a-4272-8d76-f26de8779b0a" valueTypeId="b35a5962-b4b5-49ca-88d1-2f0eefab1b84"/>
+    <selectionType typeId="e6887a3f-ebdc-4287-8c88-2b0807f64f7b" valueTypeId="203e89df-b62b-45f4-89bd-bb454183d691"/>
+    <listType typeId="b6d393d6-b418-44d5-8de2-950414fce8be" valueTypeId="683fbb3c-cdd4-47f0-a367-d716a8c3766d"/>
+    <managerType typeId="5f749aa2-17e5-4bd0-8583-551f8cb5ac06" valueTypeId="06f6fe3c-f97b-4e94-957c-fc6f6c9dc88b"/>
+  </producedTypes>
+  <name>Стеллажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стеллажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Стеллажи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Стеллажи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Стеллажи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="5123d246-b183-46c3-95c8-0d1ff7e5a2dc">
+    <name>КоличествоСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество секции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7018c2df-8792-4e55-8ca1-612e6492ce04">
+    <name>КоичествоПолок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коичество полок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48a441c7-2b90-4871-afc8-a40775ca368a">
+    <name>ДлинаПолки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина полки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a82fe1de-c984-402a-ac35-2435a788305f">
+    <name>ВысотаПолки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота полки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c03a80c-b9f9-4ea9-bf54-86b78eccb94e">
+    <name>ШиринаПолки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина полки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1db93012-35bc-4786-bf4e-5b54f629c772">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3694502c-2b5a-4b58-ad94-f408ddf80f6a">
+    <name>СхемаСтеллажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема стеллажа</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>
