@@ -99,6 +99,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.КоличествоСекции</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>КоличествоСекцииПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>КоличествоСекцииРасширеннаяПодсказка</name>
           <id>9</id>
@@ -140,6 +144,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.КоичествоПолок</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>КоичествоПолокПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>КоичествоПолокРасширеннаяПодсказка</name>
           <id>12</id>
@@ -210,6 +218,10 @@
       <items xsi:type="form:FormField">
         <name>ДлинаПолки</name>
         <id>13</id>
+        <title>
+          <key>ru</key>
+          <value>Длина полки, см</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -251,6 +263,10 @@
       <items xsi:type="form:FormField">
         <name>ВысотаПолки</name>
         <id>16</id>
+        <title>
+          <key>ru</key>
+          <value>Высота полки, см</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -292,6 +308,10 @@
       <items xsi:type="form:FormField">
         <name>ШиринаПолки</name>
         <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>Ширина полки, см</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

@@ -37,5 +37,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Стеллажи</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ПолкиСтеллажей</catalogs>
+  <documents>Document.РазмещениеНоменклатуры</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
 </mdclass:Configuration>
